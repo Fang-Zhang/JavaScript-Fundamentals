@@ -2,14 +2,40 @@
 
 ## 1. Functional Programming in Simple Terms
 - What's Functional Programming?
+  - A function must always take an argument
+  - A function must always return a value
+  - A function should act only on its receiving arguments not on the outside world
+  - For a given input, a function must always return the same output
 - Referential Transparency
-- Imperative vs Declarative vs Abstraction
+  - There is no global reference inside function
+  - This leads to parallel code and caching
+- Imperative vs Declarative
+  - Imperative programming is all about tellingthe compiler "how" to do something
+  - Declarative programming is all about telling the compiler "what" to do
 - Functional Programming Benefits
-- Pure Functions
+- Pure Functions (Return the same output for a given input)
   - Pure Functions Leads to Testable Code
+
+```js
+// Not Testable Code
+var percentValue = 5;
+var calculateTax = function(value) {
+  return value * percentValue / 100;
+}
+```
+
+```js
+// Testable Code
+var calculateTax = function(percentValue, value) {
+  return value * percentValue / 100;
+}
+```
+
   - Reasonable Code
 - Parallel Code
-- Cachable
+  - Pure function allows us to run code in parallel
+- Cachable (Memoization)
+  - Pure functions are cacheable
 - Pipelines and Composition
 - Pure Function is a Mathematical Function
 - What We Are Going to Build
