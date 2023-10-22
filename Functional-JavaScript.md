@@ -31,13 +31,13 @@ var calculateTax = function(percentValue, value) {
 }
 ```
 
-  - Reasonable Code
+  - Reasonable Code (self-understanding of what the code does)
 - Parallel Code
   - Pure function allows us to run code in parallel
 - Cachable (Memoization)
   - Pure functions are cacheable
 - Pipelines and Composition
-- Pure Function is a Mathematical Function
+- Pure Function is a Mathematical Function(one input argument and one output value)
 - What We Are Going to Build
 - Is JavaScript a Functional Programming Language?
 ## 2. Fundamentals of JavaScript Functions
