@@ -39,42 +39,73 @@ var calculateTax = function(percentValue, value) {
 - Pipelines and Composition
 - Pure Function is a Mathematical Function(one input argument and one output value)
 - What We Are Going to Build
+  - Apply the functional style to a real-world application
 - Is JavaScript a Functional Programming Language?
+  - JS is a multi-paradigm language (no, it is not)
+  - JS treats functions as first-class citizen (yes, it is)
+
 ## 2. Fundamentals of JavaScript Functions
 - ECMAScript History
 - Creating and Executing Functions
+  - First Function
+
+```js
+// ES6: A Simple Function with Name
+function () => "Simple Function"
+
+// ES6: A Simple Function without Name
+() => "Simple Function"
+// where () represents the arguments
+// => starts the function body/definition
+// "Simple Function" is the function body
+```
+  - Strict Mode
+  - Return Statement is Optional
+  - Multiple Statements in a Function
 - Setting Up Our Project
+  - Gist on Exports
+  - Gist on Imports
+  - Running the code with Babel-Node
+  - Creating Scripts in `package.json`
+
 ## 3. Higher-Order Functions
 - Understanding Data
 - Abstraction and Higher-Order Functions
 - Higher-Order Functions in the Real World
+
 ## 4. Closures and Higher-Order Functions
 - Understanding Closures
 - Higher-Order Functions in the Real World
+
 ## 5. Being Functional on Arrays
 - Working Functionally on Arrays
 - Chaining Operations
 - Reducing Function
 - Zipping Arrays
+
 ## 6. Currying and Partial Application
 - A Few Terminologies
 - Currying
 - Currying in Action
 - Data Flow
+
 ## 7. Composition and Pipelines
 - Composition in General Terms
 - Functional Composition
 - Playing with Compose Function
 - Pipelines/Sequence
+
 ## 8. Fun with Functors
 - What's a Functor?
 - MayBe
 - Either Functor
 - Word of Caution - Pointed Functor
+
 ## 9. Monads in Depth
 - Getting Reddit Commments for Our Search Query
 - The Problem
 - Solving the Problem via join
+
 ## 10. Pause, Resume with Generators
 - Async Code and Its Problems
 - Generators 101
