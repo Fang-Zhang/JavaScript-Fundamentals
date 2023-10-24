@@ -70,7 +70,12 @@ function () => "Simple Function"
 
 ## 3. Higher-Order Functions (A Function that takes a function as an argument or returns a function as a result)
 - Understanding Data
+  - JavaScript Basic Data Types
+  - Storing a Function in a Variable
+  - Passing a Function as an Argument
+  - Returning a Function as a Result
 - Abstraction and Higher-Order Functions
+  - Higer-Order Functions are nothing but abstractions
 - Higher-Order Functions in the Real World
 
 ## 4. Closures and Higher-Order Functions
