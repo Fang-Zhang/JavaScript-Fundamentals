@@ -37,7 +37,7 @@ var calculateTax = function(percentValue, value) {
 - Cachable (Memoization)
   - Pure functions are cacheable
 - Pipelines and Composition
-- Pure Function is a Mathematical Function(one input argument and one output value)
+- Pure Function is a Mathematical Function(one input argument and one output value, no side-effects which means not changing the outside world)
 - What We Are Going to Build
   - Apply the functional style to a real-world application
 - Is JavaScript a Functional Programming Language?
@@ -68,7 +68,7 @@ function () => "Simple Function"
   - Running the code with Babel-Node
   - Creating Scripts in `package.json`
 
-## 3. Higher-Order Functions
+## 3. Higher-Order Functions (A Function that takes a function as an argument or returns a function as a result)
 - Understanding Data
 - Abstraction and Higher-Order Functions
 - Higher-Order Functions in the Real World
